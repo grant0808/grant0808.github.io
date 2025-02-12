@@ -2,8 +2,8 @@
 title: "[Data Engineering] Kafka란?"
 date: 2025-02-11 16:26 +0900
 description: Kafka가 왜 사용되고 어떤 구조를 가지고 있는지 알아보았습니다.
-category: [Data Enginnering, Kafka]
-tags: [Data Enginnering, Kafka]
+category: [Data Engineering, Kafka]
+tags: [Data Engineering, Kafka]
 pin: false
 math: true
 mermaid: true
