@@ -3,9 +3,6 @@ layout: post
 title: "[Data Engineering] Kafka란?"
 date: 2025-02-11 16:26 +0900
 description: Kafka가 왜 사용되고 어떤 구조를 가지고 있는지 알아보았습니다.
-image:
-  path:
-  alt:
 category: [Data Enginnering, Kafka]
 tags: [Data Enginnering, Kafka]
 pin: false
@@ -77,6 +74,6 @@ mermaid: true
 &nbsp;
 
 참고자료
-- https://techblog.woowahan.com/17386/
-- https://medium.com/@david-noxer-kor/%EC%8B%A4%EB%AC%B4%EC%97%90%EC%84%9C-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EA%B8%B0%EC%88%A0-%EA%B0%9C%EB%85%90-%EC%A0%95%EB%A6%AC-case-1-kafka-6e74ec7ce042
-- https://velog.io/@chan9708/Kafka-Kafka-Record-Segmenthttps://velog.io/@chan9708/Kafka-Kafka-Record-Segment
+- [https://techblog.woowahan.com/17386/](https://techblog.woowahan.com/17386/)
+- [https://medium.com/@david-noxer-kor/%EC%8B%A4%EB%AC%B4%EC%97%90%EC%84%9C-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EA%B8%B0%EC%88%A0-%EA%B0%9C%EB%85%90-%EC%A0%95%EB%A6%AC-case-1-kafka-6e74ec7ce042](https://medium.com/@david-noxer-kor/%EC%8B%A4%EB%AC%B4%EC%97%90%EC%84%9C-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EA%B8%B0%EC%88%A0-%EA%B0%9C%EB%85%90-%EC%A0%95%EB%A6%AC-case-1-kafka-6e74ec7ce042)
+- [https://velog.io/@chan9708/Kafka-Kafka-Record-Segmenthttps://velog.io/@chan9708/Kafka-Kafka-Record-Segment](https://velog.io/@chan9708/Kafka-Kafka-Record-Segmenthttps://velog.io/@chan9708/Kafka-Kafka-Record-Segment)
