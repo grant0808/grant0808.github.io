@@ -8,6 +8,9 @@ tags: [Data Engineering, Kafka]
 pin: false
 math: true
 mermaid: true
+sitemap:
+  changefreq: daily
+  priority: 1.0
 ---
 # Kafka 사용 배경
 ![img](/assets/img/data_eigineering/kafka/kafka.png)

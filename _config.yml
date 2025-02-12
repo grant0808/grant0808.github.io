@@ -237,3 +237,6 @@ jekyll_compose:
       pin: false
       math: true
       mermaid: true
+      sitemap:
+        changefreq: daily
+        priority: 1.0
