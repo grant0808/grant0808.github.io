@@ -16,7 +16,7 @@ mermaid: true
 - Java 8버전 이상
 
 ### Kafka 설치하기
-```cmd
+```bash
 wget https://mirror.navercorp.com/apache/kafka/3.9.0/kafka_2.13-3.9.0.tgz
 ```
 
@@ -29,7 +29,7 @@ wget https://mirror.navercorp.com/apache/kafka/3.9.0/kafka_2.13-3.9.0.tgz
 [kakao mirror사이트트](https://mirror.kakao.com/)
 
 ### kafka 압축풀기
-```cmd
+```bash
 tar -xvzf kafka_2.13-3.9.0.tgz
 
 cd kafka_2.13-3.9.0.tgz
@@ -37,17 +37,17 @@ cd kafka_2.13-3.9.0.tgz
 
 ### zookeeper 설정 및 실행
 
-```cmd
+```bash
 vim config/config/zookeeper.properties
 ```
 
-```cmd
+```bash
 dataDir=/tmp/zookeeper # zookeeper 기본 데이터 폴더
 clientPort=2181  # zookeeper port
 maxClientCnxns=0 # client 수 설정 0이면 unlimit
 ```
 
-```cmd
+```bash
 # zookeeper 실행
 # Mac은 아래 코드를 사용(앞에 bash대신 ./사용)
 ./bin/zookeeper-server-start.sh -daemon config/zookeeper.properties
@@ -83,7 +83,7 @@ zookeeper.connect=localhost:2181 # 연동할 zookeeper host 및 port
 
 ### Kafka 실행
 
-```cmd
+```bash
 bash bin/kafka-server-start.sh -daemon config/server.properties
 
 #종료
@@ -91,7 +91,7 @@ bash kafka/bin/kafka-server-stop.sh config/server.properties
 ```
 
 ### Topic 생성
-```cmd
+```bash
 bash bin/kafka-topics.sh --create --bootstrap-server localhost:9092 -replication-factor 1 --partitions 3 --topic topic
 ```
 - bootstrap-server : kafka 주소
@@ -99,16 +99,16 @@ bash bin/kafka-topics.sh --create --bootstrap-server localhost:9092 -replication
 - replication-factor : broker에 복사되는 갯수 (안정성 증가)
 
 ### Topic 목록 확인
-```cmd
+```bash
 bash bin/kafka-topics.sh --list --bootstrap-server localhost:9092
 ```
 
 ### Topci 상세정보
-```cmd
+```bash
 bash bin/kafka-topics.sh --describe --bootstrap-server localhost:9092 --topic topic
 ```
 
 ### Topic 삭제
-```cmd
+```bash
 bash bin/kafka-topics.sh --delete -topic topic --bootstrap-server localhost:9092
 ```
