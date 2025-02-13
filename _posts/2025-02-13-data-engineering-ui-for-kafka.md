@@ -8,6 +8,9 @@ tags: [Data Engineering, Kafka]
 pin: false
 math: true
 mermaid: true
+sitemap:
+  changefreq: daily
+  priority: 1.0
 ---
 
 ## UI for Kafka
