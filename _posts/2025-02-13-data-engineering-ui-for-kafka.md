@@ -4,7 +4,7 @@ title: "[Data Engineering] UI for Kafka 사용"
 date: 2025-02-13 15:50 +0900
 description:
 category: [Data Engineering, Kafka]
-tags: [Data Engineering, Kafka]
+tags: [Data Engineering, Kafka, UI for Kafka]
 pin: false
 math: true
 mermaid: true
