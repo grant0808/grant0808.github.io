@@ -2,7 +2,7 @@
 layout: post
 title: "[Data Engineering] Elastic Search란?"
 date: 2025-02-16 15:58 +0900
-description: Elastic Search란 무엇인가가
+description: Elastic Search란 무엇인가
 category: [Data Engineering, Elastic Search]
 tags: [Data Engineering, Elastic Search]
 pin: false

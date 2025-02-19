@@ -2,7 +2,7 @@
 layout: post
 title: "[Data Engineering] UI for Kafka 사용"
 date: 2025-02-13 15:50 +0900
-description:
+description: UI for Kafka 사용해보기
 category: [Data Engineering, Kafka]
 tags: [Data Engineering, Kafka, UI for Kafka]
 pin: false

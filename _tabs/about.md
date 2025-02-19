@@ -84,8 +84,8 @@ order: 4
 
 # 📗 GitHub Stats
 
-[![GitHub stats](https://github-readme-stats.vercel.app/api?username=grant0808&count_private=true&show_icons=true&theme=radical)](https://github.com/grant0808)
+![ByeongHyeon's GitHub stats](https://github-readme-stats-psi-smoky.vercel.app/api?username=grant0808&include_all_commits=true&show_icons=true&bg_color=0,845ef7,FB7185&text_color=fff&title_color=fff&hide_border=true&icon_color=fff&hide_rank=true)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=grant0808)](https://github.com/anuraghazra/github-readme-stats)
+![Top Langs](https://github-readme-stats-psi-smoky.vercel.app/api/top-langs/?username=grant0808&layout=compact&bg_color=0,845ef7,FB7185&text_color=fff&title_color=fff&hide_border=true&hide=java,objective-c&border_radius=4&hide_progress=true)
 
 ---

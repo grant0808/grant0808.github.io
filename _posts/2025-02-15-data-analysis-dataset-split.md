@@ -2,7 +2,7 @@
 layout: post
 title: "[Data Analysis] Dataset 분리 방법"
 date: 2025-02-15 19:08 +0900
-description: 다양한 Dataset을 분리하는 방법 정리리
+description: 다양한 Dataset을 분리하는 방법 정리
 category: [Data Analysis, Data]
 tags: [Data Analysis, Data, Data Split]
 pin: false
