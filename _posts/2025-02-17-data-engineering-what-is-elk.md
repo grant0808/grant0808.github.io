@@ -54,7 +54,7 @@ Logstash는 실시간 파이프라인 기능을 가진 오픈소스 데이터 �
   - beats : Beats에서 보낸 이벤트를 처리
   - jdbc : JDBC 데이터를 통해 이벤트를 생성
 
-*Input plugin Ref. https://www.elastic.co/guide/en/logstash/current/input-plugins.html
+*Input plugin Ref. [https://www.elastic.co/guide/en/logstash/current/input-plugins.html](https://www.elastic.co/guide/en/logstash/current/input-plugins.html)
 
 ### Filter
 ![filter](/assets/img/data_eigineering/elastic_search/logstash_filter.svg)
@@ -65,7 +65,7 @@ Logstash는 실시간 파이프라인 기능을 가진 오픈소스 데이터 �
     - gsub : 가장 상단에서 grok에 보낼 메세지를 미리 전처리할 작업이 있을 떄 사용
   - date : 문자열을 지정한 패턴의 날짜형으로 변경경
 
-*Filter plugin Ref. https://www.elastic.co/guide/en/logstash/current/filter-plugins.html
+*Filter plugin Ref. [https://www.elastic.co/guide/en/logstash/current/filter-plugins.html](https://www.elastic.co/guide/en/logstash/current/filter-plugins.html)
 
 ### Output
 ![output](/assets/img/data_eigineering/elastic_search/logstash_output.svg)
@@ -75,7 +75,7 @@ Logstash는 실시간 파이프라인 기능을 가진 오픈소스 데이터 �
   - file : 파일에 output데이터를 저장
   - Kafka : Kafka Topic에 데이터를 전송
 
-*Output plugin Ref. https://www.elastic.co/guide/en/logstash/current/output-plugins.html
+*Output plugin Ref. [https://www.elastic.co/guide/en/logstash/current/output-plugins.html](https://www.elastic.co/guide/en/logstash/current/output-plugins.html)
 
 ## Kibana
 ![kibana](/assets/img/data_eigineering/elastic_search/kinaba.png)

@@ -11,6 +11,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
   @include mx.pl-pr(0);
 
   position: fixed;
+  z-index: 10;
   top: 0;
   left: 0;
   height: 100%;
