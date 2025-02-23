@@ -2,7 +2,7 @@
 layout: post
 title: "[Data Analysis] 이상탐지 통계적 기법"
 date: 2025-02-21 17:16 +0900
-description: 통계적인 기법으로 이상탐지하기기
+description: 통계적인 기법으로 이상탐지하기
 category: [Data Analysis, Anomaly Detection]
 tags: [Data Analysis, Statistics, Anomaly Detection]
 pin: false
@@ -17,7 +17,7 @@ sitemap:
 
 
 ## 3-Sigma Rule (68–95–99.7 rule)
-![3-sigma-rule](/assets/img/data_analysis/anomaly_detection/Standard_deviation_diagram.svg.png)
+![3-sigma-rule](/assets/img/data_analysis/anomaly_detection/statistics/Standard_deviation_diagram.svg.png)
 
 - 정규 분포에서 데이터의 99.7%가 평균으로부터 3시그마 이내에 위치함을 설명하는 규칙
 
@@ -1219,7 +1219,7 @@ plt.show()
 
 
     
-![png](/assets/img/data_analysis/anomaly_detection/sigma_pental_length.png)
+![png](/assets/img/data_analysis/anomaly_detection/statistics/sigma_pental_length.png)
     
 
 
@@ -1234,7 +1234,7 @@ plt.show()
 
 
     
-![png](/assets/img/data_analysis/anomaly_detection/sigma_pental_width.png)
+![png](/assets/img/data_analysis/anomaly_detection/statistics/sigma_pental_width.png)
     
 
 
@@ -1265,7 +1265,7 @@ plt.show()
 
 
     
-![png](/assets/img/data_analysis/anomaly_detection/boxplotpng.png)
+![png](/assets/img/data_analysis/anomaly_detection/statistics/boxplotpng.png)
     
 
 &nbsp;
