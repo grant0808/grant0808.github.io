@@ -1,20 +1,170 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <url>
-    <loc>https://grant0808.github.io/</loc>
-    <priority>1</priority>
-  </url>
-
-  {% for post in site.posts %}
-    <url>
-      <loc>{{ site.url }}{{ post.url }}</loc>
-      {% if post.sitemap.priority == null %}
-          <priority>0.5</priority>
-      {% else %}
-        <priority>{{ post.sitemap.priority }}</priority>
-      {% endif %}
-    </url>
-  {% endfor %}
+<url>
+  <loc>https://grant0808.github.io/</loc>
+  <lastmod>2025-02-25T14:48:10+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://grant0808.github.io/categories/</loc>
+  <lastmod>2025-02-25T14:48:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grant0808.github.io/tags/</loc>
+  <lastmod>2025-02-25T14:48:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grant0808.github.io/archives/</loc>
+  <lastmod>2025-02-25T14:48:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grant0808.github.io/about/</loc>
+  <lastmod>2025-02-25T14:48:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grant0808.github.io/posts/data-analysis-anomaly-tree-classification/</loc>
+  <lastmod>2025-02-25T14:48:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grant0808.github.io/posts/data-analysis-anomaly-distance/</loc>
+  <lastmod>2025-02-25T14:48:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grant0808.github.io/posts/data-analysis-anomoly-statisti/</loc>
+  <lastmod>2025-02-25T14:48:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grant0808.github.io/posts/data-engineering-what-is-elk/</loc>
+  <lastmod>2025-02-25T14:48:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grant0808.github.io/posts/data-engineering-what-is-elastic-search/</loc>
+  <lastmod>2025-02-25T14:48:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grant0808.github.io/posts/data-analysis-dataset-split/</loc>
+  <lastmod>2025-02-25T14:48:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grant0808.github.io/posts/data-engineering-ui-for-kafka/</loc>
+  <lastmod>2025-02-25T14:48:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grant0808.github.io/posts/data-engineering-run_kafka/</loc>
+  <lastmod>2025-02-25T14:48:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grant0808.github.io/posts/data-engineering-what-is-kafka/</loc>
+  <lastmod>2025-02-25T14:48:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grant0808.github.io/tags/data-engineering/</loc>
+  <lastmod>2025-02-25T14:48:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grant0808.github.io/tags/data-analysis/</loc>
+  <lastmod>2025-02-25T14:48:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grant0808.github.io/tags/anomaly-detection/</loc>
+  <lastmod>2025-02-25T14:48:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grant0808.github.io/tags/kafka/</loc>
+  <lastmod>2025-02-25T14:48:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grant0808.github.io/tags/elastic-search/</loc>
+  <lastmod>2025-02-25T14:48:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grant0808.github.io/tags/classification/</loc>
+  <lastmod>2025-02-25T14:48:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grant0808.github.io/tags/data-split/</loc>
+  <lastmod>2025-02-25T14:48:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grant0808.github.io/tags/data/</loc>
+  <lastmod>2025-02-25T14:48:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grant0808.github.io/tags/distance/</loc>
+  <lastmod>2025-02-25T14:48:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grant0808.github.io/tags/elk/</loc>
+  <lastmod>2025-02-25T14:48:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://grant0808.github.io/categories/data-analysis/</loc>
+  <lastmod>2025-02-25T14:48:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://grant0808.github.io/categories/anomaly-detection/</loc>
+  <lastmod>2025-02-25T14:48:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://grant0808.github.io/categories/data/</loc>
+  <lastmod>2025-02-25T14:48:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://grant0808.github.io/categories/data-engineering/</loc>
+  <lastmod>2025-02-25T14:48:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://grant0808.github.io/categories/elastic-search/</loc>
+  <lastmod>2025-02-25T14:48:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://grant0808.github.io/categories/kafka/</loc>
+  <lastmod>2025-02-25T14:48:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://grant0808.github.io/tags/statistics/</loc>
+  <lastmod>2025-02-25T14:48:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://grant0808.github.io/tags/tree/</loc>
+  <lastmod>2025-02-25T14:48:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://grant0808.github.io/tags/ui-for-kafka/</loc>
+  <lastmod>2025-02-25T14:48:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
 
 </urlset>
