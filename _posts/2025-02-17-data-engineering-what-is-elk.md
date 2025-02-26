@@ -14,14 +14,14 @@ sitemap:
 ---
 # ELK Stack
 
-![elk](/assets/img/data_eigineering/elastic_search/elk.webp)
+![elk](/assets/img/data_engineering/elastic_search/elk.webp)
 
 - E (Elasticsearch) : 검색 및 분석 엔진
 - L (Logstash) : Data 처리 Pipeline 역할
 - K (Kibana) : 데이터 시각화 
 
 # Logstash
-![logstash](/assets/img/data_eigineering/elastic_search/logstash.png)
+![logstash](/assets/img/data_engineering/elastic_search/logstash.png)
 
 Logstash는 실시간 파이프라인 기능을 가진 오픈소스 데이터 수집 엔진입니다. Logstash는 서로 다른 소스의 데이터를 탄력적으로 통합하고 사용자가 선택한 목적지로 데이터를 정규화할 수 있습니다. 다양한 고급 다운스트림 분석 및 시각화 활용 사례를 위해 모든 데이터를 정리하고 대중화(democratization)합니다.
 
@@ -39,13 +39,13 @@ Logstash는 실시간 파이프라인 기능을 가진 오픈소스 데이터 �
   - Elasticsearch의 장애 상황에 대응하기 위한 재시도 로직이나 오류가 발생한 Document를 따로 보관하는 Dead-Letter-Queue를 내장
 
 ## Pipeline
-![pipeline](/assets/img/data_eigineering/elastic_search/basic_logstash_pipeline.png)
+![pipeline](/assets/img/data_engineering/elastic_search/basic_logstash_pipeline.png)
 
 - Input, Output은 필수, Filter는 Option.
 - 입력 플러그인은 소스의 데이터를 사용하고, 필터 플러그인은 사용자가 지정한 대로 데이터를 수정하며, 출력 플러그인은 목적지에 데이터를 기록
 
 ### input
-![input](/assets/img/data_eigineering/elastic_search/logstash_input.svg)
+![input](/assets/img/data_engineering/elastic_search/logstash_input.svg)
 - 외부에서 데이터를 받아오는 영역
 - 사용하는 플러그인
   - file : UNIX명령어인 tail -0F 처럼 파일시스템에서 파일을 읽음
@@ -57,7 +57,7 @@ Logstash는 실시간 파이프라인 기능을 가진 오픈소스 데이터 �
 *Input plugin Ref. [https://www.elastic.co/guide/en/logstash/current/input-plugins.html](https://www.elastic.co/guide/en/logstash/current/input-plugins.html)
 
 ### Filter
-![filter](/assets/img/data_eigineering/elastic_search/logstash_filter.svg)
+![filter](/assets/img/data_engineering/elastic_search/logstash_filter.svg)
 - 입력 받은 데이터를 가공, 조건에 대한 가공
 - 사용하는 플러그인
   - grok : grok패턴을 사용해 메세지를 구조화된 형태로 분석
@@ -68,7 +68,7 @@ Logstash는 실시간 파이프라인 기능을 가진 오픈소스 데이터 �
 *Filter plugin Ref. [https://www.elastic.co/guide/en/logstash/current/filter-plugins.html](https://www.elastic.co/guide/en/logstash/current/filter-plugins.html)
 
 ### Output
-![output](/assets/img/data_eigineering/elastic_search/logstash_output.svg)
+![output](/assets/img/data_engineering/elastic_search/logstash_output.svg)
 - 입력과 필터를 거친 데이터를 Target 대상으로 보내는 단계
 - 사용하는 플러그인
   - elasticsearch : 시계열, 비시계열 데이터 세트 모두 전송 가능
@@ -78,7 +78,7 @@ Logstash는 실시간 파이프라인 기능을 가진 오픈소스 데이터 �
 *Output plugin Ref. [https://www.elastic.co/guide/en/logstash/current/output-plugins.html](https://www.elastic.co/guide/en/logstash/current/output-plugins.html)
 
 ## Kibana
-![kibana](/assets/img/data_eigineering/elastic_search/kinaba.png)
+![kibana](/assets/img/data_engineering/elastic_search/kinaba.png)
 - Kibana는 Elasticsearch 데이터를 시각화하고 탐색할 수 있도록 설계된 분석 및 시각화 플랫폼
 - 주요 기능
   - 대시보드 및 시각화: 차트, 그래프, 지도 등 다양한 형식으로 데이터를 시각화

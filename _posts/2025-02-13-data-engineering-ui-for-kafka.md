@@ -78,7 +78,7 @@ docker-compose -f doker-compose.yaml up -d
 ```
 실행하면 아래와 같이 docker에 띄어진 것을 확인할 수 있다.
 
-![img](/assets/img/data_eigineering/kafka/kafka_in_docker.png)
+![img](/assets/img/data_engineering/kafka/kafka_in_docker.png)
 
 
 ### UI for Kafka 실행
@@ -101,7 +101,7 @@ docker-compose -f doker-compose-kafka.yaml up -d
 ```
 [http://localhost:8989/](http://localhost:8989/)에 접근하면 ui for kafka에 들어갈 수 있다.
 
-![img](/assets/img/data_eigineering/kafka/ui_for_kafka.png)
+![img](/assets/img/data_engineering/kafka/ui_for_kafka.png)
 
 ## Kafka 내부 접속
 ```bash
@@ -130,14 +130,14 @@ kafka-topics --delete --bootstrap-server kafka-1:29091 --topic topic1
 kafka-console-producer --broker-list kafka-1:29091 --topic topic1
 ```
 실행 후 직접 메시지를 입력하면 Kafka에 전송됨
-![img](/assets//img/data_eigineering/kafka/producer.png)
+![img](/assets//img/data_engineering/kafka/producer.png)
 
 ### Consumer 실행
 ```bash
 kafka-console-consumer --bootstrap-server kafka-1:29091 --topic topic1 --from-beginning
 ```
 --from-beginning: 처음부터 모든 메시지 조회
-![img](/assets/img/data_eigineering/kafka/consumer.png)
+![img](/assets/img/data_engineering/kafka/consumer.png)
 
 ### Consumer 그룹 ID 지정
 ```bash

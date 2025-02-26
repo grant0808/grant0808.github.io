@@ -62,7 +62,7 @@ Elasticsearch는 단독으로 사용될 수도 있지만, 일반적으로 Elasti
 Elasticsearch는 뛰어난 성능과 확장성을 갖춘 검색 및 분석 엔진으로, 다양한 산업과 애플리케이션에서 활용되고 있습니다.
 
 ## Elasticsearch 아키텍쳐
-![elasticsearch_architecture](/assets/img/data_eigineering/elastic_search/elasticsearch_architecture.webp)
+![elasticsearch_architecture](/assets/img/data_engineering/elastic_search/elasticsearch_architecture.webp)
 
 - 인덱스(index)
   - 데이터 저장 공간
@@ -136,13 +136,13 @@ Elasticsearch는 뛰어난 성능과 확장성을 갖춘 검색 및 분석 엔�
 
 기존의 RDB는 전체 Row를 탐색하여 찾고자하는 단어를 포함하는 데이터를 찾아나갔습니다.
 
-![rdb](/assets/img/data_eigineering/elastic_search/rdb.png)
+![rdb](/assets/img/data_engineering/elastic_search/rdb.png)
 
 RDB는 위와 같이 `like` 검색을 사용하기 때문에 데이터가 늘어날수록 탐색해야할 대상이 늘어나 시간이 오래걸리게 됩니다.
 
 Elastic Search는 데이터를 저장할 때 아래와 같은 **역 인덱스(inverted index)** 라는 구조를 만들어 저장합니다.
 
-![inverted_index](/assets/img/data_eigineering/elastic_search/inverted_index.png)
+![inverted_index](/assets/img/data_engineering/elastic_search/inverted_index.png)
 
 ## Elasticsearch의 단점
 - 실시간 데이터 전송 불가

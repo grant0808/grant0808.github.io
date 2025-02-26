@@ -13,7 +13,7 @@ sitemap:
   priority: 1.0
 ---
 # Kafka 사용 배경
-![img](/assets/img/data_eigineering/kafka/kafka.png)
+![img](/assets/img/data_engineering/kafka/kafka.png)
 
 기업의 MSA(Microservice Architecture)환경에서 하나의 기능에 다수의 서버가 운영되면서 데이터 흐름 복잡성과 운영유지비가 증가하고 있다.
 
@@ -45,7 +45,7 @@ sitemap:
   - 싱크 커넥터(sink connector) : 메시지 소비와 관련 있는 커넥터
 - 주키퍼(ZooKeeper) : 분산 코디네이션 서비스(분산 시스템에서 시스템 간의 정보 공유, 상태 체크, 서버들 간의 동기화를 위한 락 등을 처리해주는 서비스)를 제공하는 오픈소스 프로젝트. Leader와 Follower로 설정(Leader에 저장되면 Follower가 가져와 복제)
 
-![img](/assets/img/data_eigineering/kafka/kafka-terminology.png)
+![img](/assets/img/data_engineering/kafka/kafka-terminology.png)
 
 ## Kafka Segment-Record 구조
 - Header
@@ -72,7 +72,7 @@ sitemap:
   - Offset 기반으로 Consumer가 처리리
 
 
-![img](/assets/img/data_eigineering/kafka/kafka-segment-record.png)   
+![img](/assets/img/data_engineering/kafka/kafka-segment-record.png)   
 
 &nbsp;
 

@@ -66,7 +66,7 @@ bash kafka/bin/zookeeper-server-stop.sh config/zookeeper.properties
 <br>
 
 **만약 아래와 같은 에러가 발생한 경우**
-![img](/assets/img/data_eigineering/kafka/zookeeper_error.png)
+![img](/assets/img/data_engineering/kafka/zookeeper_error.png)
 - 파일경로에 공백이 있는지 확인하고 공백이 있으면 제거하거나 대체한다.
 
 ### kafka 설정
