@@ -61,7 +61,7 @@ def transform(ti: dict) -> dict:
     # Abilities를 문자열로 변환
     legendary_data["Abilities"] = legendary_data["Abilities"].apply(lambda x: x.replace(",", "|"))
 
-    return df.to_dict(orient='records')
+    return legendary_data.to_dict(orient='records')
 ```
 
 ### Load
