@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Data Analysis] 이상탐지 통계적 기법"
+title: "[Data Analysis] 통계적 기법 이상 탐지 "
 date: 2025-02-21 17:16 +0900
 description: 통계적인 기법으로 이상탐지하기
 category: [Data Analysis, Anomaly Detection]

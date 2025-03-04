@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Data Analysis] 이상탐지 거리 기법"
+title: "[Data Analysis] 거리 기반 이상 탐지 "
 date: 2025-02-23 17:27 +0900
 description: 거리기반 이상탐지를 정리했습니다.
 category: [Data Analysis, Anomaly Detection]
