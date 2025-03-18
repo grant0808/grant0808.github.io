@@ -189,7 +189,7 @@ with DAG(
 
 
 
--github Repository에 참고하시면 위 코드가 있습니다.
+- github Repository에 참고하시면 위 코드가 있습니다.
 [https://github.com/grant0808/airflow-dag-k8s](https://github.com/grant0808/airflow-dag-k8s)
 
 &nbsp;

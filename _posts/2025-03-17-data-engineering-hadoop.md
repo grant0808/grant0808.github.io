@@ -66,19 +66,22 @@ MapReduce 작업은 일반적으로 입력 데이터 세트를 독립적인 청�
 
 MapReduce 프레임워크는 단일 마스터 ResourceManager, NodeManager클러스터 노드당 하나의 워커, MRAppMaster애플리케이션당 하나의 워커로 구성됩니다
 
-![mapreduce](/assets/img/data_engineering/hadoop/mapreduce.png)
+![mapreduce](/assets/img/data_engineering/hadoop/mapreduce.avif)
 
 ### MapReduce단계
 
 - Maping 단계
+
 분할과 매핑이라는 두 단계가 있습니다. 입력 파일은 효율성을 위해 더 작고 동일한 청크로 나뉘며 이를 입력 분할이라고 합니다. 매퍼는 (키, 값) 쌍만 이해하므로 Hadoop은 TextInputFormat을 사용하여 입력 분할을 키-값 쌍으로 변환하는 RecordReader를 사용합니다. 
 
 MapReduce에서 병렬성은 Mapper에 의해 달성됩니다. 각 입력 분할에 대해 매퍼의 새 인스턴스가 인스턴스화됩니다. 매핑 단계에는 이러한 데이터 블록에 적용되는 코딩 로직이 포함됩니다. 이 단계에서 매퍼는 키-값 쌍을 처리하고 동일한 형태(키-값 쌍)의 출력을 생성합니다.
 
 - shuffle 및 sort 단계
+
 Shuffle과 sort는 Mapper와 Reducer 사이의 MapReduce의 중간 단계로, Hadoop에서 처리하며 필요한 경우 재정의할 수 있습니다. Shuffle 프로세스는 Mapper 출력의 키 값을 그룹화하여 모든 Mapper 출력을 집계하고 값은 값 목록에 추가됩니다. 따라서 Shuffle 출력 형식은 map <key, List < list of values > >이 됩니다. Mapper 출력의 키는 통합되고 정렬됩니다.
 
 - Reduce 단계
+
 셔플 및 정렬 단계의 출력은 리듀서 단계의 입력으로 사용되고 리듀서는 값 목록을 처리합니다. 각 키는 다른 리듀서로 전송될 수 있습니다. 리듀서는 값을 설정할 수 있으며, 이는 MapReduce 작업의 최종 출력에 통합되고 값은 HDFS에 최종 출력으로 저장됩니다.
 
 
@@ -90,3 +93,4 @@ Shuffle과 sort는 Mapper와 Reducer 사이의 MapReduce의 중간 단계로, Ha
   - [https://aws.amazon.com/ko/compare/the-difference-between-hadoop-vs-spark/](https://aws.amazon.com/ko/compare/the-difference-between-hadoop-vs-spark/)
   - [https://www.databricks.com/kr/glossary/hadoop-distributed-file-system-hdfs](https://www.databricks.com/kr/glossary/hadoop-distributed-file-system-hdfs)
   - [https://www.whizlabs.com/blog/understanding-mapreduce-in-hadoop-know-how-to-get-started/](https://www.whizlabs.com/blog/understanding-mapreduce-in-hadoop-know-how-to-get-started/)
+  - [https://www.projectpro.io/hadoop-tutorial/hadoop-mapreduce-tutorial-](https://www.projectpro.io/hadoop-tutorial/hadoop-mapreduce-tutorial-)
