@@ -2,12 +2,9 @@
 layout: post
 title: "[Project] Airflow 만들기 에러사항"
 date: 2025-03-31 18:22 +0900
-description:
-image:
-  path:
-  alt:
-category: []
-tags: []
+description: Kubernetes에 Airflow를 띄우면서 생긴 에러
+category: [MLOps, Project]
+tags: [MLOps, Project, Airflow]
 pin: false
 math: true
 mermaid: true
@@ -17,19 +14,11 @@ sitemap:
 ---
 
 
-https://velog.io/@newnew_daddy/K8S01
+# 트러블이슈
 
-https://velog.io/@jskim/Airflow-On-K8s-Kubernetes-Git-Sync-DAGs-%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0
+## 문제 1번
 
-https://velog.io/@jskim/Airflow-On-K8s-Kubernetes-Airflow-Cluster-%EA%B5%AC%EC%B6%95%ED%95%98%EA%B8%B0
-
-https://developnote-blog.tistory.com/176
-
-
-
-트러블이슈
-
-``The scheduler does not appear to be running. The DAGs list may not update, and new tasks will not be scheduled.``가 발생
+1. ``The scheduler does not appear to be running. The DAGs list may not update, and new tasks will not be scheduled.``가 발생
 
 scheduler를 확인해보면 실행되지가 않은 것을 발견
 
@@ -79,7 +68,7 @@ workers:
 
 
 
-문제 2
+## 문제 2
 
 log가 잘 나오다가 
 
