@@ -3,7 +3,7 @@ layout: post
 title: "[Data Analysis] Funnel분석 & AARRR"
 date: 2025-05-19 22:25 +0900
 description: 그로스 해킹 이해해보기
-category: [Data Analysis]
+category: [Data Analysis, Data]
 tags: [Data Analysis, Funnel, AARRR]
 pin: false
 math: true

@@ -3,7 +3,7 @@ layout: post
 title: "[Data Analysis] 문제정의 방법"
 date: 2025-05-14 20:48 +0900
 description: 데이터 분석에 앞서 문제 정의 방법
-category: [Data Analysis]
+category: [Data Analysis, Data]
 tags: [Data Analysis, Problem]
 pin: false
 math: true
