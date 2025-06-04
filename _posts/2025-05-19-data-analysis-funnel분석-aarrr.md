@@ -22,7 +22,7 @@ sitemap:
 아래는 그로스 해킹이라는 것이 무엇이고 창시자는 어떤 목적으로 만들었는지 이해하기 위해 본 영상이다.
 
 
-[![그로스 해킹](http://img.youtube.com/vi/TMYaTkOyV4Y/0.jpg)](https://youtu.be/TMYaTkOyV4Y)
+[![그로스 해킹](http://img.youtube.com/vi/TMYaTkOyV4Y/0.jpg)](https://youtu.be/TMYaTkOyV4Y){:target="_blank"}
 
 [https://www.youtube.com/watch?v=TMYaTkOyV4Y](https://www.youtube.com/watch?v=TMYaTkOyV4Y)
 
