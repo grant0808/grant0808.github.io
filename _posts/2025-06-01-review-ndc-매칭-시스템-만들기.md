@@ -25,7 +25,7 @@ soft skill에 집중하고 있는 와중에 내가 보고있는 강의에서 여
 
 권리자명: (주)넥슨코리아
 
-홈페이지: [[NDC] 어떻게 매칭시켜드릴까요? - 매칭 시스템 만들기](https://www.intelligencelabs.tech/6635528b-9830-46b9-a626-4e9fa4332262)
+홈페이지: [[NDC] 어떻게 매칭시켜드릴까요? - 매칭 시스템 만들기](https://www.intelligencelabs.tech/6635528b-9830-46b9-a626-4e9fa4332262){:target="_blank"}
 
 ## 문제정의
 `Matchmaking`이란 무엇일까? 메칭메이킹이란 사업, 스포츠, 게임에서 상대를 찾는 과정으로 게임판을 짜주는 작업이다. 즉, PvP(Player versus Player)에서 실력 또는 자본 등을 바탕으로 균형이 맞는 플레이어를 이어주는 작업이다.
