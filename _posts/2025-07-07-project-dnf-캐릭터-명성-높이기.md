@@ -25,10 +25,7 @@ sitemap:
 - 기간: 2025.07.07
 - 데이터 출처: 던파 API 
 
-<a href="http://developers.neople.co.kr" target="_blank">
-<img src="/assets/img/data_analysis/dnf_project/png/기술표기_가로형_color.png" alt="Neople 오픈 API"/> </a>
-
-
+[![neople_logo](/assets/img/data_analysis/dnf_project/png/기술표기_가로형_color.png)](http://developers.neople.co.kr){:target="_blank"}
 
 - 현재 종결 부분
     - 크리쳐 -> but 기간제
@@ -117,6 +114,26 @@ sitemap:
 ![skin_emblems](/assets/img/data_analysis/dnf_project/skin_embelms.png)
 
 ![skin_emblems_pair](/assets/img/data_analysis/dnf_project/skin_embelms_pair.png)
+
+- `장바구니 알고리즘`결과
+
+| antecedents                | consequents                |  support   |  confidence |    lift   |
+|:---------------------------|:---------------------------|-----------:|------------:|----------:|
+| (2:빛나는 붉은빛 엠블렘[힘]) | (1:빛나는 붉은빛 엠블렘[힘]) | 0.150198   | 1.000000    | 6.487179  |
+| (1:빛나는 붉은빛 엠블렘[힘]) | (2:빛나는 붉은빛 엠블렘[힘]) | 0.150198   | 0.974359    | 6.487179  |
+| (1:찬란한 붉은빛 엠블렘[힘]) | (2:찬란한 붉은빛 엠블렘[힘]) | 0.304348   | 0.987179    | 3.243590  |
+| (2:찬란한 붉은빛 엠블렘[힘]) | (1:찬란한 붉은빛 엠블렘[힘]) | 0.304348   | 1.000000    | 3.243590  |
+| (1:화려한 붉은빛 엠블렘[힘]) | (2:화려한 붉은빛 엠블렘[힘]) | 0.217391   | 1.000000    | 4.600000  |
+
+- antecedents: 규칙의 선행 조건(조건부, 왼쪽, if 부분)
+- consequents: 규칙의 결과(결론, 오른쪽, then 부분)
+- support: 전체 거래 중 해당 규칙(antecedent와 consequent가 동시에 등장)이 나타난 비율
+- confidence: antecedent가 나타났을 때 consequent도 함께 나타날 확률(조건부 확률)
+- lift: 두 아이템 간의 연관 강도(1보다 크면 양의 상관관계, 1이면 무관, 1보다 작으면 음의 상관관계)
+
+- 종합
+    - 매우 강한 연관성: 특정 슬롯(1번, 2번)에 동일한 종류의 엠블렘(빛나는/찬란한/화려한 붉은빛 엠블렘[힘])이 함께 장착되는 경우가 압도적으로 많다
+    - Lift 값이 모두 1을 크게 초과: 두 슬롯에 같은 엠블렘을 장착하는 것이 우연이 아니라, 실제로 유저들이 의도적으로 그렇게 세팅하고 있다는 신뢰 높은 증거
 
 ![skin_emblems_network](/assets/img/data_analysis/dnf_project/skin_embelms_network.png)
 
@@ -318,3 +335,6 @@ sitemap:
 ## 차후 분석
 - Case 1: 캐릭터 마법부여 카드 분석
 - Case 2: 장비 융합석 분석
+
+&nbsp;
+- 프로젝트 코드 : [DnF Project](https://github.com/grant0808/dnf_analysis){:target="_blank"}
