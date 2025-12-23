@@ -669,9 +669,7 @@ mlflow.set_experiment("FashionCNN")
 
 
 
-    <Experiment: artifact_location=('file:///c:/Users/PC/Desktop/패스트캠퍼스/10개 프로젝트로 한 번에 끝내는 MLOps 파이프라인 구현 초격차 패키지 '
-     'Online/Part 3. 머신러닝 상품화를 위한 클라우드 플랫폼/Chapter 2. MLFlow를 활용한 머신러닝 '
-     '상품화/실습/mlruns/107038616652530463'), creation_time=1766485896982, experiment_id='107038616652530463', last_update_time=1766485896982, lifecycle_stage='active', name='FashionCNN', tags={'mlflow.experimentKind': 'custom_model_development'}>
+    <Experiment: artifact_location=('file:///c:/Users/PC/Desktop/실습/mlruns/107038616652530463'), creation_time=1766485896982, experiment_id='107038616652530463', last_update_time=1766485896982, lifecycle_stage='active', name='FashionCNN', tags={'mlflow.experimentKind': 'custom_model_development'}>
 
 
 
