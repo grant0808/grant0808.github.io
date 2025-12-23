@@ -109,7 +109,7 @@ for n_estimator in n_estimators:
 ![log](/assets/img/mlflow/mlflow_prectice/mlflow_log.png)
 - 만들어진 log를 확인하여 모델 선택
 
-![register](/assets/img/mlflow/mlflow_prectice/create_register.png)
+![register](/assets/img/mlflow/mlflow_prectice/register_model.png)
 ![create_register](/assets/img/mlflow/mlflow_prectice/create_register.png)
 - model을 register에 저장
 
