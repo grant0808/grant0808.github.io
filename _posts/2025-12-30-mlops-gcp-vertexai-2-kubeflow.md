@@ -2,7 +2,7 @@
 layout: post
 title: "[MLOps] GCP VertexAI 2(Kubeflow)"
 date: 2025-12-30 16:51 +0900
-description:
+description: Vertex AI에 Kubeflow형식 pipeline만들기
 image:
   path: /assets/img/mlops/GCP/VertexAI2/kubeflow.png
   alt: kubeflow
