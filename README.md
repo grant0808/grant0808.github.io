@@ -1,3 +1,8 @@
+# GitHub Pages 블로그
+
+로컬 실행, 글 작성, 설정 변경 및 배포 방법은 [BLOG_GUIDE.md](BLOG_GUIDE.md)를
+참고하세요.
+
 # ⭐️ introduce
 
 - **GitHub** : [grant0808](https://github.com/grant0808)

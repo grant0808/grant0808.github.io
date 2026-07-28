@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "[MLOps] MLFlow 실습"
+title: "[MLOps] MLflow 실습"
 date: 2025-12-23 22:29 +0900
-description: MLOps를 위한 MLFlow 실습
+description: MLOps를 위한 MLflow 실습
 image:
   path: /assets/img/mlops/project/mlflow/mlflow-logo.png
-  alt: MLFlow Logo
-category: [MLOps, MLFlow]
-tags: [MLOps, MLFlow]
+  alt: MLflow Logo
+category: [MLOps, MLflow]
+tags: [MLOps, MLflow]
 pin: false
 math: true
 mermaid: true
