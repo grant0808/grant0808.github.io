@@ -2,6 +2,11 @@
 #
 # Run jekyll serve and then launch the site
 
+# Prefer the Homebrew Ruby required by this theme over macOS system Ruby 2.6.
+if [[ -x "/opt/homebrew/opt/ruby@3.3/bin/ruby" ]]; then
+  export PATH="/opt/homebrew/opt/ruby@3.3/bin:/opt/homebrew/lib/ruby/gems/3.3.0/bin:$PATH"
+fi
+
 prod=false
 command="bundle exec jekyll s -l"
 host="127.0.0.1"
