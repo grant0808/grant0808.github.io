@@ -8,6 +8,12 @@
 
 set -eu
 
+# Same environment as tools/run.sh: Homebrew Ruby 3.3 and a UTF-8 locale for Korean filenames.
+if [[ -x "/opt/homebrew/opt/ruby@3.3/bin/ruby" ]]; then
+  export PATH="/opt/homebrew/opt/ruby@3.3/bin:/opt/homebrew/lib/ruby/gems/3.3.0/bin:$PATH"
+fi
+export LANG="${LANG:-en_US.UTF-8}" LC_ALL="${LC_ALL:-en_US.UTF-8}"
+
 SITE_DIR="_site"
 
 _config="_config.yml"

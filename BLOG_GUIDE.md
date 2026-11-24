@@ -26,7 +26,7 @@ brew --prefix ruby@3.3
 터미널을 새로 열었다면 먼저 Ruby 경로를 적용합니다.
 
 ```bash
-export PATH="/opt/homebrew/opt/ruby@3.3/bin:$PATH"
+export PATH="/opt/homebrew/opt/ruby@3.3/bin:/opt/homebrew/lib/ruby/gems/3.3.0/bin:$PATH"
 ```
 
 그다음 테마의 CSS·JavaScript를 만들고 Jekyll 서버를 실행합니다.
@@ -38,6 +38,13 @@ bundle exec jekyll serve --livereload
 
 브라우저에서 <http://127.0.0.1:4000>을 열면 블로그를 볼 수 있습니다.
 서버는 `Ctrl+C`로 종료합니다.
+
+macOS 기본 Ruby와의 충돌을 피하려면 저장소의 실행 스크립트를 사용해도 됩니다.
+이 스크립트는 Homebrew Ruby를 자동으로 선택합니다.
+
+```bash
+bash tools/run.sh
+```
 
 ## 3. 새 글 작성
 

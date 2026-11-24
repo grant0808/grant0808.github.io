@@ -7,6 +7,9 @@ if [[ -x "/opt/homebrew/opt/ruby@3.3/bin/ruby" ]]; then
   export PATH="/opt/homebrew/opt/ruby@3.3/bin:/opt/homebrew/lib/ruby/gems/3.3.0/bin:$PATH"
 fi
 
+# Korean post filenames break the gemspec (git ls-files) under a non-UTF-8 locale.
+export LANG="${LANG:-en_US.UTF-8}" LC_ALL="${LC_ALL:-en_US.UTF-8}"
+
 prod=false
 command="bundle exec jekyll s -l"
 host="127.0.0.1"

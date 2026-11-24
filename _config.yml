@@ -216,6 +216,7 @@ exclude:
   - rollup.config.js
   - "package*.json"
   - assets/robots.txt
+  - notebooks
 
 jekyll-archives:
   enabled: [categories, tags]

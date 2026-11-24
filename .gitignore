@@ -28,3 +28,10 @@ assets/js/dist
 
 # Docs
 AGENTS.md
+# Blog harness
+.venv
+_workspace
+
+.claude
+notebooks
+CLAUDE.md
